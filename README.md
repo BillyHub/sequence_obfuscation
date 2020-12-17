@@ -15,4 +15,5 @@ run obfuscation_dataset_test.m
 ```
 
 Copyright 2020 to Bo Guan, Hossein Pishro-Nik
+
 Department of Electrical and Computer Engineering, UMass Amherst.
