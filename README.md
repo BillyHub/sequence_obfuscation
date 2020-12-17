@@ -14,4 +14,4 @@ run obfuscation_iidSequence_test.m
 run obfuscation_dataset_test.m
 ```
 
-Copyright 2020 to Bo Guan.
+Copyright 2020 to Bo Guan, UMass Amherst.
