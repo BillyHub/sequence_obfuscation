@@ -33,8 +33,8 @@ for iter = 1:iteration
                 end                
                 if (select == 1)
                     % execute the random obfuscation if the unseen set has been used up
-                    if (user_seq_set_size == r + l)
-                        user_seq(seqIndex+1) = randi([1,r+l],1);
+                    if (user_seq_set_size == r_total)
+                        user_seq(seqIndex+1) = randi([1,r_total],1);
                         seqIndex = seqIndex + 1;
                         continue;
                     end                   
