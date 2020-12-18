@@ -47,7 +47,7 @@ for iter = 1:iteration
                 end                
                 if (select == 1)% obfuscating the data point
                     % execute the randomness obfuscation if the pattern set has been used up
-                    if (pattern_set_seen_size == r_total^l)
+                    if (pattern_set_seen_size == r_total^2)
                         user_seq(seqIndex+1) = randi([1,r_total],1);
                         seqIndex = seqIndex + 1;
                         continue;
