@@ -1,5 +1,7 @@
 function [seq] = de_bruijn_sequence(r,l)
-% generate de bruijn sequence
+% generate de bruijn sequence:
+% https://en.wikipedia.org/wiki/De_Bruijn_sequence
+
 % r: alphabet size
 % l: subsequence (pattern) length
 global a;
