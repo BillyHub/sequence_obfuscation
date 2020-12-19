@@ -8,7 +8,7 @@ function [percentage_avg] = obfuscation_superstring(user_sequence, superStringSe
 % Information Theory (ISIT), 2020.
 
 % user_sequence: user sequence dataset
-% superStringSeq: superstring based obfuscation sequence
+% superStringSeq: optimized version of obfuscating superstring based on De Bruijn sequence
 % user1_pattern: user1's unique pattern
 % n: number of users
 % valid_user_num: number of users whose sequence is not empty
