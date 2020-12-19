@@ -38,7 +38,7 @@ for iter = 1:iteration
                         seqIndex = seqIndex + 1;
                         continue;
                     end                   
-                    x_obf=randi(r+l-user_seq_set_size);
+                    x_obf=randi(r_total-user_seq_set_size);
                     user_seq(seqIndex+1) = user_seq_unseen_set(x_obf);
                 end              
                 % exclude the obfuscated data point from the unseen set
