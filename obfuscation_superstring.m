@@ -1,5 +1,7 @@
 function [percentage_avg] = obfuscation_superstring(user_sequence, superStringSeq, user1_pattern, n, valid_user_num, p_obf, l, h, iteration)
 % Executing proposed superstring based obfuscation method
+% optimized version of superstring based on De Bruijn sequence:
+% https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
 % Corresponding code to the paper "Sequence Obfuscation to Thwart Pattern
 % Matching Attacks" by Bo Guan et al., at IEEE International Symposium on
