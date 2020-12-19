@@ -1,5 +1,6 @@
 function [pattern_included, index] = pattern_detection(seq, pattern, h)
 % pattern detection with distance requirement h
+% for pattern length l = 1, 2, 3
 
 len = size(seq,2);
 l = length(pattern);
