@@ -2,13 +2,13 @@
 
 Implementations of the obfuscation algorithms in Matlab.
 
-#### To validate the obfuscation algorithms on i.i.d. sequence:
+#### To validate the obfuscation algorithms on i.i.d. sequences:
 
 ```bash
 run obfuscation_iidSequence_test.m
 ```
 
-#### To validate the obfuscation algorithms on a dataset sequence:
+#### To validate the obfuscation algorithms on dataset sequences:
 
 ```bash
 run obfuscation_dataset_test.m
