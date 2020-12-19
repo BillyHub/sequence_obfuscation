@@ -4,6 +4,7 @@ function [seq] = de_bruijn_sequence(r,l)
 
 % r: alphabet size
 % l: subsequence (pattern) length
+
 global a;
 a = zeros(1, r*l);
 global sequence;
