@@ -5,13 +5,13 @@ Implementations of the obfuscation algorithms in Matlab.
 #### To test the obfuscation algorithms on i.i.d. sequences, run:
 
 ```bash
-obfuscation_iidSequence_test.m
+test_obfuscation_iidSequence.m
 ```
 
 #### To test the obfuscation algorithms on dataset sequences, run:
 
 ```bash
-obfuscation_dataset_test.m
+test_obfuscation_dataset.m
 ```
 
 Copyright 2020 to Bo Guan, Hossein Pishro-Nik
