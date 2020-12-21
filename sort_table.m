@@ -1,6 +1,8 @@
 function [r_max_set, max_size] = sort_table(cell_table)
-% sort the table set by the size by descending order
-% output the set of all indices with maximum size and the size
+% sort the cell indecies by their size in descending order
+% return: 
+% r_max_set: the set which contains all indices with maximum size
+% max_size: the maximum size
 
 NrowsB = cellfun('size',cell_table,1) ;
 [~,ri] = sort(NrowsB,'descend');
