@@ -1,6 +1,6 @@
 ### About
 
-Implementation codes of the obfuscation algorithms in Matlab.
+Implementation codes of the proposed obfuscation algorithms in Matlab.
 
 #### To test the obfuscation algorithms on i.i.d. sequences, run:
 
