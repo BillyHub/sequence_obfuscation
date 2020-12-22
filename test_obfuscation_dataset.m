@@ -8,10 +8,10 @@ sigma = 1/10;% for algorithm2
 
 %% load the dataset sequence for each user
 % load the location set
-load('topTowerList_Top20.mat');
+load('RealityMiningSample/topTowerList_Top20.mat');
 r = size(topTowerList, 2);
 % load the dataset sequences
-load('user_wholeSeq_sampling_topTower20_10mins_truncated1000_droppedLessThan.mat');
+load('RealityMiningSample/user_wholeSeq_sampling_topTower20_10mins_truncated1000_droppedLessThan.mat');
 n = size(user_wholeSeq_sampling_truncated,2);
 % translate the original data sequence to natural numbers
 keySet = topTowerList;
