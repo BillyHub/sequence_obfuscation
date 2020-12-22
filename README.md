@@ -6,7 +6,7 @@ Implementation codes of the proposed obfuscation algorithms in Matlab.
 
 http://realitycommons.media.mit.edu/realitymining.html
 
-Then save the data file 'realitymining.mat' under current folder.
+Then save the data file 'realitymining.mat' under current directory.
 
 #### To sample the Reality Mining dataset, run:
 
