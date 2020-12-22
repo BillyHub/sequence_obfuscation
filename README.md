@@ -8,7 +8,7 @@ Implementation codes of the proposed obfuscation algorithms in Matlab.
 test_obfuscation_iidSequence.m
 ```
 
-#### To test the obfuscation algorithms on dataset sequences
+#### To test the obfuscation algorithms on dataset sequences:
 
 First to download the Reality Mining dataset from:
 
