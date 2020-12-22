@@ -16,7 +16,7 @@ http://realitycommons.media.mit.edu/realitymining.html
 
 Then save the data file 'realitymining.mat' under current folder.
 
-Sample the Reality Mining dataset, run:
+To sample the Reality Mining dataset, run:
 
 ```bash
 sample_RealityMining.m
