@@ -1,12 +1,21 @@
 % sample the Reality Mining dataset sequence
 % Corresponding to: http://realitycommons.media.mit.edu/realitymining.html
 
-%% extract cell towers appearing in the Reality Mining dataset sequence with top ranked frequency
+% s(u).all_locs: The unique set of towers seen by the subject. (areaID.cellID)
+% examples:
+% 39402.30213
+% 39402.30331
+% 39402.30333
+
+% s(n).locs: Time-stamped tower transitions. [date, areaID.cellID] (0 is no signal)
+
 clear all
 load realitymining.mat
+
+%% extract cell towers appearing in the Reality Mining dataset sequence with top ranked frequency
 top_tower_num = 20;% number of top frequent Cellular Towers wanted 
 n = size(s,2);% number of users
-towerFreqList = [];% the appearing towers list
+towerFreqList = [];% the list of appearing towers
 total_len = 0;% sum of all users' sequence length
 for u = 1:n
     if (~isempty(s(u).all_locs))
