@@ -33,8 +33,7 @@ towerFreq = towerFreq / total_len;
 [towerFreqSorted, towerIndex_sorted_byFreq] = sort(towerFreq, 'descend');
 topTowerIndexList = towerIndex_sorted_byFreq(1:top_tower_num);
 topTowerList = towerUniqList(topTowerIndexList);
-
-%% save the sampling variables under subfolder RealityMiningSample
+% save the variable topTowerList in subfolder 'RealityMiningSample'
 if ~exist('RealityMiningSample', 'dir')
     mkdir('RealityMiningSample');
 end
