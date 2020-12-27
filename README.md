@@ -4,9 +4,9 @@ Implementation codes of the proposed obfuscation algorithms in Matlab.
 
 #### To download the Reality Mining dataset:
 
-http://realitycommons.media.mit.edu/realitymining.html
+http://realitycommons.media.mit.edu/realitymining4.html
 
-Then save the data file 'realitymining.mat' under current directory.
+Then save the data file 'realitymining.mat' in the same repository.
 
 #### To sample the Reality Mining dataset, run:
 
