@@ -65,4 +65,4 @@ plot(p,percent_algorithm3, 'om-');
 xlabel('p_{obf}');ylabel('validation percentage');
 legend('random obf', 'de bruijn obf','algorithm1 obf','algorithm2 obf', 'algorithm3 obf', 'Location','southeast');
 grid on;
-title('r = 20 + l, m = 1000, l = 2, h = 10, using iid sequence');
+%title('r = 20 + l, m = 1000, l = 2, h = 10, using iid sequence');
