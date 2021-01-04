@@ -46,10 +46,10 @@ for p_obf = 0.02:0.02:0.1
     percent_randomObf = [percent_randomObf, obfuscation_random(user_sequence, user1_pattern, r, n, n, p_obf, l, h, 1e3)];
     %percent_randomObf_theory = [percent_randomObf_theory, randomObf_theory_l1(p_obf, r+l, m)];
     percent_deBruijnObf = [percent_deBruijnObf, obfuscation_superstring(user_sequence, superstring_seq, user1_pattern, n, n, p_obf, l, h, 1e3)];
-    percent_algorithm1 = [percent_algorithm1, algorithm1(user_sequence, user1_pattern, r, n, n, p_obf, l, h, 1e1)];
+    percent_algorithm1 = [percent_algorithm1, algorithm1(user_sequence, user1_pattern, r, n, n, p_obf, l, h, 1e2)];
     %percent_algorithm1_theory = [percent_algorithm1_theory, algorithm1_theory_l1(p_obf, r+l, m)];
-    percent_algorithm2 = [percent_algorithm2, algorithm2(user_sequence, user1_pattern, r, n, n, p_obf, l, h, sigma, 1e1)];
-    percent_algorithm3 = [percent_algorithm3, algorithm3(user_sequence, user1_pattern, r, n, n, p_obf, l, h, 1e0)];
+    percent_algorithm2 = [percent_algorithm2, algorithm2(user_sequence, user1_pattern, r, n, n, p_obf, l, h, sigma, 1e2)];
+    percent_algorithm3 = [percent_algorithm3, algorithm3(user_sequence, user1_pattern, r, n, n, p_obf, l, h, 1e1)];
 end
 
 %% plot the figure in terms of p_obf
