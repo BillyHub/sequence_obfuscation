@@ -6,7 +6,7 @@ r = 20;% location size before adding extra l letters for the unique pattern
 m = 1e3;% sequence length
 l = 2;% pattern length
 h = 10;% pattern letter maximum distance
-n = 1e3;% number of users
+n = 1e2;% number of users
 sigma = 1/10;% for algorithm2
 
 %% generate the iid sequence for each user
