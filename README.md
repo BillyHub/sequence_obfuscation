@@ -1,5 +1,7 @@
 ### About
 
+Corresponding code to the paper "Sequence Obfuscation to Thwart Pattern Matching Attacks" by Bo Guan and et al., at IEEE International Symposium on Information Theory (ISIT) 2020.
+
 Implementation codes of the proposed obfuscation algorithms in Matlab.
 
 #### To download the Reality Mining dataset:
