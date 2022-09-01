@@ -1,6 +1,6 @@
 ### About
 
-Corresponding code to the paper "Sequence Obfuscation to Thwart Pattern Matching Attacks" by Bo Guan and et al., at IEEE International Symposium on Information Theory (ISIT) 2020.
+Corresponding code to the paper "Sequence Obfuscation to Thwart Pattern Matching Attacks" by Bo Guan and et al., at IEEE International Symposium on Information Theory (ISIT) 2020. The extended version of the conference paper is accepted by IEEE Internet of Things Journal, August 2022.
 
 Implementation codes of the proposed obfuscation algorithms in Matlab.
 
